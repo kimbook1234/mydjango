@@ -5,7 +5,7 @@ STATIC_ROOT = BASE_DIR / 'static/'
 STATICFILES_DIRS = []
 DEBUG = False
 
-DATABASE = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pybo',
