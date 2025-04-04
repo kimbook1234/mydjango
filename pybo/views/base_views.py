@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 from ..models import Question
 from django.db.models import Q, Count
 import logging
-logger = logging.getlogger('pybo')
+logger = logging.getLogger('pybo')
 
 
 def index(request):
